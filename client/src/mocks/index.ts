@@ -1,1 +1,1 @@
-export {};
+export * from './1/index';
