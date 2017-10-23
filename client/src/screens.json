@@ -3,16 +3,17 @@
   "name": "Bla",
   "screens": [
     {
-      "id": "1",
-      "name": "nata_1",
-      "sourceScreenId": "Blank",
-      "sourceAppId": "default"
-    },
-    {
       "id": "2",
       "name": "nata_2",
       "folder": true,
-      "screens": []
+      "screens": [
+        {
+          "id": "1",
+          "name": "nata_1",
+          "sourceScreenId": "Blank",
+          "sourceAppId": "default"
+        }
+      ]
     }
   ]
 }
